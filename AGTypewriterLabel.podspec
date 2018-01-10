@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.description      = "AGTypewriterLabel is a UI Label that can animate the display of it's text character by character. How fast it goes and when it pauses is completely up to you! It's perfect for use in games, instructional manuals, and anywhere else you can see fit!"
 
   s.homepage         = 'https://github.com/aivantg/AGTypewriterLabel'
+  s.screenshots      = "https://raw.githubusercontent.com/aivantg/AGTypewriterLabel/master/Assets/demo.gif"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aivantgoyal' => 'aivant.developer@gmail.com' }
   s.source           = { :git => 'https://github.com/aivantg/AGTypewriterLabel.git', :tag => s.version.to_s }
