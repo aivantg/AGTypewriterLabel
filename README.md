@@ -2,13 +2,15 @@
 
 AGTypewriterLabel is a UI Label that can animate the display of it's text character by character. How fast it goes and when it pauses is completely up to you! It's perfect for use in games, instructional manuals, and anywhere else you can see fit!
 
+<img src="/Assets/demo.gif?raw=true">
+
 ## Installation
 
 ### Manual
 
 0. Copy and paste `AGTypewriterLabel.swift` to your xcode project.
 
-### [CocoaPods](https://cocoapods.org/pods/AGTypewriterLabel)
+### CocoaPods
 
 1. Install the latest release of CocoaPods: `gem install cocoapods`
 2. Add this line to your Podfile: `pod 'AGTypewriterLabel'`
@@ -17,13 +19,15 @@ AGTypewriterLabel is a UI Label that can animate the display of it's text charac
 
 ## Usage
 
-1. Change the class of a label from UILabel to AGTypewriterLabel;
+**1.**Change the class of a label from UILabel to AGTypewriterLabel in storyboard and create an outlet in your code. 
 
-2. Use the `AGTypewriterLabel.addAnimation()` function to add animations to the label
+**2.** Use the `addAnimation` or `addAnimations` to add animations to the label. 
 
-3. Call `AGTypewriterLabel.startAnimation()` to start the animation!
+There are currently two types of animations supported: `.text(string: String, interval: TimeInterval)` (where the `interval` parameter determines the time between each character being displayed) and `.pause(length: TimeInterval)`
 
-4. **Optional**: Implement `AGTypewriterLabelDelegate` and set your label's delegate to know when the label is done animating
+**3.** Call `AGTypewriterLabel.startAnimation()` to start the animation! Call `AGTypewriterLabel.clearAnimations()` to remove animations if needed.
+
+**4. **Optional**: Implement `AGTypewriterLabelDelegate` and set your label's delegate to know when the label is done animating
 
 
 ## Sample Code
