@@ -24,7 +24,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aivantgoyal' => 'aivant.developer@gmail.com' }
   s.source           = { :git => 'https://github.com/aivantg/AGTypewriterLabel.git', :tag => s.version.to_s }
-  s.swift_version = '4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AGTypewriterLabel/Classes/**/*'
