@@ -1,0 +1,16 @@
+PODS:
+  - AGTypewriterLabel (0.1.0)
+
+DEPENDENCIES:
+  - AGTypewriterLabel (from `../`)
+
+EXTERNAL SOURCES:
+  AGTypewriterLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AGTypewriterLabel: e90749e1a6497b64662e9b52209fd8a34f040356
+
+PODFILE CHECKSUM: 5ead396fea4489ac54027d5ba0f9e92f01bbea98
+
+COCOAPODS: 1.4.0.rc.1

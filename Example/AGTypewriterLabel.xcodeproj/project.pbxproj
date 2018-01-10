@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		091D03597EFCFB029D9363BD /* AGTypewriterLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AGTypewriterLabel.podspec; path = ../AGTypewriterLabel.podspec; sourceTree = "<group>"; };
+		091D03597EFCFB029D9363BD /* AGTypewriterLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AGTypewriterLabel.podspec; path = ../AGTypewriterLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3235CC7A1CBFA183CDD3178E /* Pods_AGTypewriterLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGTypewriterLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8B302D77CA45436F1ECE61 /* Pods-AGTypewriterLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGTypewriterLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGTypewriterLabel_Tests/Pods-AGTypewriterLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AGTypewriterLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGTypewriterLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		82C58F6F43126824BBF688EB /* Pods_AGTypewriterLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGTypewriterLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		998DCB757246F0F462FDE5E3 /* Pods-AGTypewriterLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGTypewriterLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGTypewriterLabel_Example/Pods-AGTypewriterLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C23D99886ABAC61B3A44F3AE /* Pods-AGTypewriterLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGTypewriterLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGTypewriterLabel_Example/Pods-AGTypewriterLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D8CA51E866234D96144B788F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E1E316D817F7D0245EFB3108 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D8CA51E866234D96144B788F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E1E316D817F7D0245EFB3108 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E27A48E4B6391CF138DF9864 /* Pods-AGTypewriterLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGTypewriterLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGTypewriterLabel_Tests/Pods-AGTypewriterLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JH3YFAV7T3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JH3YFAV7T3;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,6 +519,7 @@
 			baseConfigurationReference = C23D99886ABAC61B3A44F3AE /* Pods-AGTypewriterLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JH3YFAV7T3;
 				INFOPLIST_FILE = AGTypewriterLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +535,7 @@
 			baseConfigurationReference = 998DCB757246F0F462FDE5E3 /* Pods-AGTypewriterLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JH3YFAV7T3;
 				INFOPLIST_FILE = AGTypewriterLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E27A48E4B6391CF138DF9864 /* Pods-AGTypewriterLabel_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JH3YFAV7T3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A8B302D77CA45436F1ECE61 /* Pods-AGTypewriterLabel_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JH3YFAV7T3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

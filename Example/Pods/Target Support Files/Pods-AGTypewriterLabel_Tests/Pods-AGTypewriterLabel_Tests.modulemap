@@ -1,0 +1,6 @@
+framework module Pods_AGTypewriterLabel_Tests {
+  umbrella header "Pods-AGTypewriterLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

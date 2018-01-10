@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0097BD7DB7E3F0EF7F09F48F9EF297C8 /* AGTypewriterLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E15D821ECAD8D0EA0DF4E3E528C06D /* AGTypewriterLabel-dummy.m */; };
+		102D907492A56A6778B98D95A30342C3 /* Pods-AGTypewriterLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9698A1EA524B2D466713C9C0B88F5AB3 /* Pods-AGTypewriterLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A91ACB35DE8A57D20D8CCB721A16651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		911D143E70D1F0FA521C6095644EE7F9 /* Pods-AGTypewriterLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B4772D7CA87E06C642E2D22A9A7C62 /* Pods-AGTypewriterLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E19746073CF0EACDDEA9DE6DFF88517 /* Pods-AGTypewriterLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B53AFFD1780811E456E9A89ECCFF840 /* Pods-AGTypewriterLabel_Example-dummy.m */; };
+		A32EE8B52005CBE20045F538 /* AGTypewriterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32EE8B42005CBE20045F538 /* AGTypewriterLabel.swift */; };
+		D10F032A98DF7FB8807FB3A9A54AFDD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D8A53B9AA03C2EE00C6542EA54C565F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		EDD127CAFDD04A846E9AB1ECDC8E089B /* Pods-AGTypewriterLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B1A4A66B761A90D4600EB5AEB1CD /* Pods-AGTypewriterLabel_Tests-dummy.m */; };
+		EFF7A796075BE8C2DAC9A17A3AED2DA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F3DD4E8A2917F615E0F43CCFF4299880 /* AGTypewriterLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DC66246C1573FB0BBBE479A6752573 /* AGTypewriterLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA408666A190CAB88A82BD1FF1D625C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E25FF5C34BFF58080C12036EC540CCA;
+			remoteInfo = AGTypewriterLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010824F0BEB66C8C5758EF0A3B2EDC2F /* Pods-AGTypewriterLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGTypewriterLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02CBB6E09A8FDCDAF26A0D53D28F82BE /* Pods-AGTypewriterLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGTypewriterLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		05BE57D135A1CD4AE61CF7F6D668B6CE /* Pods-AGTypewriterLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGTypewriterLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		06CB2AEF6B51E682EAD0DCBD18D88943 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084AE371C0B3F955231C627B76FF50AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1691CD5C00CD8A640BCD2064BA91C317 /* AGTypewriterLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AGTypewriterLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D07FF78BB6DABD8365B112CB3E33222 /* Pods_AGTypewriterLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGTypewriterLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5D3BDA2989D26F10E4F046AA2A9D06 /* Pods-AGTypewriterLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGTypewriterLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		240B8513C573CDDEA6539C820BDF42F7 /* Pods-AGTypewriterLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGTypewriterLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		33EFEB053CB6B83A83571FDC3C65E169 /* Pods-AGTypewriterLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGTypewriterLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		34B2F75DFF65A184F1E5E83911624C91 /* Pods-AGTypewriterLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGTypewriterLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		374A46B1106FE96DB1B6EAAC4D2A93CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		406085E017BF8ECED7301ED69FD19E34 /* AGTypewriterLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGTypewriterLabel-prefix.pch"; sourceTree = "<group>"; };
+		4825781FAA0B1676B90E9712FA2EFAF2 /* Pods-AGTypewriterLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGTypewriterLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B53AFFD1780811E456E9A89ECCFF840 /* Pods-AGTypewriterLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGTypewriterLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		513BCE5580A4EB3F828D1CE231C0E5B1 /* AGTypewriterLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGTypewriterLabel.xcconfig; sourceTree = "<group>"; };
+		55E15D821ECAD8D0EA0DF4E3E528C06D /* AGTypewriterLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGTypewriterLabel-dummy.m"; sourceTree = "<group>"; };
+		5E30B1A4A66B761A90D4600EB5AEB1CD /* Pods-AGTypewriterLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGTypewriterLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		68B1F57BEF4860854C27CEDE67026331 /* Pods-AGTypewriterLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGTypewriterLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		83F606751585CE48EE098BF2F6D35B24 /* Pods-AGTypewriterLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGTypewriterLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9698A1EA524B2D466713C9C0B88F5AB3 /* Pods-AGTypewriterLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGTypewriterLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		9CC9018986492440460FE6204C630145 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32EE8B42005CBE20045F538 /* AGTypewriterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AGTypewriterLabel.swift; path = AGTypewriterLabel/Classes/AGTypewriterLabel.swift; sourceTree = "<group>"; };
+		AA43A1932AD0CB933CD4C9A475578BA1 /* Pods-AGTypewriterLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGTypewriterLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BCD88A451FC41B1EEA15D36C5E1F51E5 /* AGTypewriterLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGTypewriterLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1068EE42F4606D5C00ED4D2B612312 /* AGTypewriterLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGTypewriterLabel.modulemap; sourceTree = "<group>"; };
+		C21867146C74E8EBC84D09520C141D2D /* Pods-AGTypewriterLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGTypewriterLabel_Example.modulemap"; sourceTree = "<group>"; };
+		C670695BCCC2516353C47D924A81B39F /* Pods-AGTypewriterLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGTypewriterLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D0DC66246C1573FB0BBBE479A6752573 /* AGTypewriterLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGTypewriterLabel-umbrella.h"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1B4772D7CA87E06C642E2D22A9A7C62 /* Pods-AGTypewriterLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGTypewriterLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F506BB5C0847A5FC01FA64F3D6B17B12 /* Pods_AGTypewriterLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGTypewriterLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8186BC3EB042B50713F430B5AEAB06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FDC1BA5870BF82A7AA4C7C2851051774 /* Pods-AGTypewriterLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGTypewriterLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146ABB3ABFBDF5C738EFE680F10448AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7A796075BE8C2DAC9A17A3AED2DA9 /* Foundation.framework in Frameworks */,
+				D8A53B9AA03C2EE00C6542EA54C565F9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EF69EAA8C3ADBBA98CEC8DCB9C5881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10F032A98DF7FB8807FB3A9A54AFDD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BE7292200997164A3A3680013F84D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A91ACB35DE8A57D20D8CCB721A16651 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3845A398FF327F2CA1D7584C92225D8F /* Pods-AGTypewriterLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				084AE371C0B3F955231C627B76FF50AA /* Info.plist */,
+				05BE57D135A1CD4AE61CF7F6D668B6CE /* Pods-AGTypewriterLabel_Tests.modulemap */,
+				010824F0BEB66C8C5758EF0A3B2EDC2F /* Pods-AGTypewriterLabel_Tests-acknowledgements.markdown */,
+				AA43A1932AD0CB933CD4C9A475578BA1 /* Pods-AGTypewriterLabel_Tests-acknowledgements.plist */,
+				5E30B1A4A66B761A90D4600EB5AEB1CD /* Pods-AGTypewriterLabel_Tests-dummy.m */,
+				C670695BCCC2516353C47D924A81B39F /* Pods-AGTypewriterLabel_Tests-frameworks.sh */,
+				83F606751585CE48EE098BF2F6D35B24 /* Pods-AGTypewriterLabel_Tests-resources.sh */,
+				E1B4772D7CA87E06C642E2D22A9A7C62 /* Pods-AGTypewriterLabel_Tests-umbrella.h */,
+				34B2F75DFF65A184F1E5E83911624C91 /* Pods-AGTypewriterLabel_Tests.debug.xcconfig */,
+				33EFEB053CB6B83A83571FDC3C65E169 /* Pods-AGTypewriterLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-AGTypewriterLabel_Tests";
+			path = "Target Support Files/Pods-AGTypewriterLabel_Tests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A15A8AF41D509E1A3231E2727288619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD88A451FC41B1EEA15D36C5E1F51E5 /* AGTypewriterLabel.framework */,
+				1D07FF78BB6DABD8365B112CB3E33222 /* Pods_AGTypewriterLabel_Example.framework */,
+				F506BB5C0847A5FC01FA64F3D6B17B12 /* Pods_AGTypewriterLabel_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C5269F93643800E074EE74567A961901 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4A15A8AF41D509E1A3231E2727288619 /* Products */,
+				8B4A2B81467CA6546CF6A6CE7B76F4A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4A2B81467CA6546CF6A6CE7B76F4A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C042751FD9308777DCA91FDB62552D /* Pods-AGTypewriterLabel_Example */,
+				3845A398FF327F2CA1D7584C92225D8F /* Pods-AGTypewriterLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF45BE53577B37CDB70CDC2A71EEE18C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD1068EE42F4606D5C00ED4D2B612312 /* AGTypewriterLabel.modulemap */,
+				513BCE5580A4EB3F828D1CE231C0E5B1 /* AGTypewriterLabel.xcconfig */,
+				55E15D821ECAD8D0EA0DF4E3E528C06D /* AGTypewriterLabel-dummy.m */,
+				406085E017BF8ECED7301ED69FD19E34 /* AGTypewriterLabel-prefix.pch */,
+				D0DC66246C1573FB0BBBE479A6752573 /* AGTypewriterLabel-umbrella.h */,
+				9CC9018986492440460FE6204C630145 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AGTypewriterLabel";
+			sourceTree = "<group>";
+		};
+		C5269F93643800E074EE74567A961901 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA5491C953EED6B27B83CE8CB0DC14A9 /* AGTypewriterLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CA5491C953EED6B27B83CE8CB0DC14A9 /* AGTypewriterLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A32EE8B42005CBE20045F538 /* AGTypewriterLabel.swift */,
+				DF099F307F7A56E8262329E43ECAE9C7 /* Pod */,
+				BF45BE53577B37CDB70CDC2A71EEE18C /* Support Files */,
+			);
+			name = AGTypewriterLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D1C042751FD9308777DCA91FDB62552D /* Pods-AGTypewriterLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				06CB2AEF6B51E682EAD0DCBD18D88943 /* Info.plist */,
+				C21867146C74E8EBC84D09520C141D2D /* Pods-AGTypewriterLabel_Example.modulemap */,
+				4825781FAA0B1676B90E9712FA2EFAF2 /* Pods-AGTypewriterLabel_Example-acknowledgements.markdown */,
+				68B1F57BEF4860854C27CEDE67026331 /* Pods-AGTypewriterLabel_Example-acknowledgements.plist */,
+				4B53AFFD1780811E456E9A89ECCFF840 /* Pods-AGTypewriterLabel_Example-dummy.m */,
+				1D5D3BDA2989D26F10E4F046AA2A9D06 /* Pods-AGTypewriterLabel_Example-frameworks.sh */,
+				240B8513C573CDDEA6539C820BDF42F7 /* Pods-AGTypewriterLabel_Example-resources.sh */,
+				9698A1EA524B2D466713C9C0B88F5AB3 /* Pods-AGTypewriterLabel_Example-umbrella.h */,
+				FDC1BA5870BF82A7AA4C7C2851051774 /* Pods-AGTypewriterLabel_Example.debug.xcconfig */,
+				02CBB6E09A8FDCDAF26A0D53D28F82BE /* Pods-AGTypewriterLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-AGTypewriterLabel_Example";
+			path = "Target Support Files/Pods-AGTypewriterLabel_Example";
+			sourceTree = "<group>";
+		};
+		DF099F307F7A56E8262329E43ECAE9C7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1691CD5C00CD8A640BCD2064BA91C317 /* AGTypewriterLabel.podspec */,
+				374A46B1106FE96DB1B6EAAC4D2A93CE /* LICENSE */,
+				FA8186BC3EB042B50713F430B5AEAB06 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C0E4722BEF399DBD2CB8853FFBDC0D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911D143E70D1F0FA521C6095644EE7F9 /* Pods-AGTypewriterLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35BC2AF7E82ADE8CD2F69BEDFBF73AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102D907492A56A6778B98D95A30342C3 /* Pods-AGTypewriterLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF19AABE975B94FDB050BEAA2622DDCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DD4E8A2917F615E0F43CCFF4299880 /* AGTypewriterLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E25FF5C34BFF58080C12036EC540CCA /* AGTypewriterLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A07AE26650544828C5FBAC0CF099478 /* Build configuration list for PBXNativeTarget "AGTypewriterLabel" */;
+			buildPhases = (
+				9B9899E7297DCFD0CA6B987BACE888AD /* Sources */,
+				146ABB3ABFBDF5C738EFE680F10448AF /* Frameworks */,
+				DF19AABE975B94FDB050BEAA2622DDCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGTypewriterLabel;
+			productName = AGTypewriterLabel;
+			productReference = BCD88A451FC41B1EEA15D36C5E1F51E5 /* AGTypewriterLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62E2B696C61C6698CB517A376E2F02FD /* Pods-AGTypewriterLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384003D8A3B7A1DEED4551C18AA83CCF /* Build configuration list for PBXNativeTarget "Pods-AGTypewriterLabel_Example" */;
+			buildPhases = (
+				09809D2541207EFC8C3001AFB17F5F4D /* Sources */,
+				F5BE7292200997164A3A3680013F84D6 /* Frameworks */,
+				A35BC2AF7E82ADE8CD2F69BEDFBF73AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7681BF422999895C5AFDDB41778A8033 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGTypewriterLabel_Example";
+			productName = "Pods-AGTypewriterLabel_Example";
+			productReference = 1D07FF78BB6DABD8365B112CB3E33222 /* Pods_AGTypewriterLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		747F55A69005BFDF6C13EEEC19C71BCB /* Pods-AGTypewriterLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1DE41EBBC8B17B798D727708F0BA9E /* Build configuration list for PBXNativeTarget "Pods-AGTypewriterLabel_Tests" */;
+			buildPhases = (
+				3BD883D74DFFEBE96DB99B2C92945E0A /* Sources */,
+				A6EF69EAA8C3ADBBA98CEC8DCB9C5881 /* Frameworks */,
+				7C0E4722BEF399DBD2CB8853FFBDC0D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AGTypewriterLabel_Tests";
+			productName = "Pods-AGTypewriterLabel_Tests";
+			productReference = F506BB5C0847A5FC01FA64F3D6B17B12 /* Pods_AGTypewriterLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					4E25FF5C34BFF58080C12036EC540CCA = {
+						LastSwiftMigration = 0920;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4A15A8AF41D509E1A3231E2727288619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E25FF5C34BFF58080C12036EC540CCA /* AGTypewriterLabel */,
+				62E2B696C61C6698CB517A376E2F02FD /* Pods-AGTypewriterLabel_Example */,
+				747F55A69005BFDF6C13EEEC19C71BCB /* Pods-AGTypewriterLabel_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09809D2541207EFC8C3001AFB17F5F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E19746073CF0EACDDEA9DE6DFF88517 /* Pods-AGTypewriterLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD883D74DFFEBE96DB99B2C92945E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD127CAFDD04A846E9AB1ECDC8E089B /* Pods-AGTypewriterLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9899E7297DCFD0CA6B987BACE888AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0097BD7DB7E3F0EF7F09F48F9EF297C8 /* AGTypewriterLabel-dummy.m in Sources */,
+				A32EE8B52005CBE20045F538 /* AGTypewriterLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7681BF422999895C5AFDDB41778A8033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGTypewriterLabel;
+			target = 4E25FF5C34BFF58080C12036EC540CCA /* AGTypewriterLabel */;
+			targetProxy = FA408666A190CAB88A82BD1FF1D625C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3ADD581407A7DBE1456A85E87AFBA761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC1BA5870BF82A7AA4C7C2851051774 /* Pods-AGTypewriterLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGTypewriterLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGTypewriterLabel_Example/Pods-AGTypewriterLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGTypewriterLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56904C5A95B84D340F81B7B619455537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513BCE5580A4EB3F828D1CE231C0E5B1 /* AGTypewriterLabel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AGTypewriterLabel/AGTypewriterLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGTypewriterLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGTypewriterLabel/AGTypewriterLabel.modulemap";
+				PRODUCT_NAME = AGTypewriterLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72263A08DAB8A639B6356259EB90A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CBB6E09A8FDCDAF26A0D53D28F82BE /* Pods-AGTypewriterLabel_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGTypewriterLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGTypewriterLabel_Example/Pods-AGTypewriterLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGTypewriterLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		920F9CDE59B08D4DAA870F612B3B8C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513BCE5580A4EB3F828D1CE231C0E5B1 /* AGTypewriterLabel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AGTypewriterLabel/AGTypewriterLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGTypewriterLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGTypewriterLabel/AGTypewriterLabel.modulemap";
+				PRODUCT_NAME = AGTypewriterLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA311401194E6EFFDF200052DCD2CECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B2F75DFF65A184F1E5E83911624C91 /* Pods-AGTypewriterLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGTypewriterLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGTypewriterLabel_Tests/Pods-AGTypewriterLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGTypewriterLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D288BDD1955A691B9A46412D42A6BBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33EFEB053CB6B83A83571FDC3C65E169 /* Pods-AGTypewriterLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGTypewriterLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGTypewriterLabel_Tests/Pods-AGTypewriterLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGTypewriterLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		384003D8A3B7A1DEED4551C18AA83CCF /* Build configuration list for PBXNativeTarget "Pods-AGTypewriterLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADD581407A7DBE1456A85E87AFBA761 /* Debug */,
+				72263A08DAB8A639B6356259EB90A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A07AE26650544828C5FBAC0CF099478 /* Build configuration list for PBXNativeTarget "AGTypewriterLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56904C5A95B84D340F81B7B619455537 /* Debug */,
+				920F9CDE59B08D4DAA870F612B3B8C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1DE41EBBC8B17B798D727708F0BA9E /* Build configuration list for PBXNativeTarget "Pods-AGTypewriterLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA311401194E6EFFDF200052DCD2CECB /* Debug */,
+				D288BDD1955A691B9A46412D42A6BBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

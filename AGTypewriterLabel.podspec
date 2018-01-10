@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AGTypewriterLabel'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AGTypewriterLabel.'
+  s.version          = '0.1.2'
+  s.summary          = 'A lightweight UILabel subclass that displays text character-by-character based on customizable animations.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "AGTypewriterLabel is a UI Label that can animate the display of it's text character by character. How fast it goes and when it pauses is completely up to you! It's perfect for use in games, instructional manuals, and anywhere else you can see fit!"
 
-  s.homepage         = 'https://github.com/aivantgoyal/AGTypewriterLabel'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/aivantg/AGTypewriterLabel'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'aivantgoyal' => 'aivantg_developer@yahoo.com' }
-  s.source           = { :git => 'https://github.com/aivantgoyal/AGTypewriterLabel.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'aivantgoyal' => 'aivant.developer@gmail.com' }
+  s.source           = { :git => 'https://github.com/aivantg/AGTypewriterLabel.git', :tag => s.version.to_s }
+  s.swift_version = '4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AGTypewriterLabel/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AGTypewriterLabel' => ['AGTypewriterLabel/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
