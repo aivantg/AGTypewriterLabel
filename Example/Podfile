@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AGTypewriterLabel_Example' do
+  pod 'AGTypewriterLabel', :path => '../'
+
+  target 'AGTypewriterLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
